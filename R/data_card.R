@@ -6,7 +6,7 @@ library(googlesheets4)
 library(readr)
 
 # Авторизуемся
-rym_auth(login = "sobyaninks@yandex.ru", token.path = "TOKEN_YANDEX_METRIKA")
+rym_auth(login = "sobyaninks@yandex.ru", token.path = "metrica_token")
 startDate <- "2024-03-01"
 finishDate <- "yesterday"
 
