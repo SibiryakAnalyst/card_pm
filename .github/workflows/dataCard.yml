@@ -34,7 +34,7 @@ jobs:
 
     - name: Install R packages
       run: |
-        Rscript -e 'install.packages(c("readr", "googlesheets4", "dplyr", "tidyr", "rym"), repos="https://cran.rstudio.com/")'
+        Rscript -e 'install.packages(c("readr", "googlesheets4", "tidyr", "rym"), repos="https://cran.rstudio.com/")'
 
     - name: Run R script
       env:
