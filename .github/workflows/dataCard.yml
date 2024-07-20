@@ -1,8 +1,8 @@
 name: Run R script daily
 
 on:
-  schedule:
-    - cron: '20 10 * * *'  # Ежедневно в 10:00 UTC
+  #schedule:
+    # cron: '20 10 * * *'  # Ежедневно в 10:00 UTC
     
   workflow_dispatch:
 
